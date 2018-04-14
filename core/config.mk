@@ -632,7 +632,7 @@ else
 SED_INPLACE:=sed -i
 endif
 
-DR_SCRIPT := vendor/dark/dr_build.sh
+DR_SCRIPT := vendor/dark/dr.sh
 BASH := bash
 
 APICHECK_CLASSPATH := $(HOST_JDK_TOOLS_JAR)
